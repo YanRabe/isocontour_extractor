@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cglib"
+version = "0.1.0"
+authors = [
+    {name = "Antoine MARION", email = "antoinemarionpro10@gmail.com"},
+]
+description = "Computer Graphics Library"
+readme = "README.md"
+requires-python = ">=3.9, <3.12"
+keywords = ["graphics", "fabrication"]
+license = {file = "LICENSE"}
+dependencies = [
+    "taichi",
+    "svgpathtools",
+    "tqdm"
+]
