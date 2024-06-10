@@ -16,8 +16,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument("input_filename", 
-                        help= "File in .npy format containing a scalar field whose\
-                              isocontours we want to extract and stitch. ", 
+                        help= "File in .npy format containing a scalar field whose isocontours we want to extract and stitch. ", 
                         type = str)
 
     args = parser.parse_args()
@@ -68,5 +67,4 @@ if __name__ == "__main__":
         print("Cycle data saved in " + str(end_data-start_data) + " seconds\n")
 
     except FileNotFoundError: 
-        print("The file containing the scalar field does not exist.\
-               Please put it in data/fields.")
+        print("The file containing the scalar field does not exist. Please put it in data/fields.")
