@@ -4,7 +4,7 @@ import tqdm
 from cglib.fields import reset_energies, find_minimum_in_field 
 from cglib.calc import compute_all_energies, compute_neighbours_energies
 
-
+#test
 
 ti.init(arch = ti.cpu)
 
